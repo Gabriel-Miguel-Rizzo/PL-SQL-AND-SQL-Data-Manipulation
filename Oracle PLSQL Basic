@@ -82,8 +82,8 @@ CASE                (case / when)
 COALESCE            (returns the first non-null expression in the list.)
 
 
-insert into select
-select into
+insert into select  (Use to put a SELECT result inside some Table) 
+select into         (Use to put a ROW of a Table inside some variable)
 delete from 
 
 %type;
