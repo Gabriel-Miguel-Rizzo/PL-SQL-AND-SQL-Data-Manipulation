@@ -81,6 +81,21 @@ CASE                (case / when)
 
 COALESCE            (returns the first non-null expression in the list.)
 
+LEN                 (Conta os caracteres de uma string)
+
+TRIM                (Remove os espaços (início e fim))
+
+LTRIM               (Remove os espaços do início)
+
+RTRIM               (Remove espaços do fim)
+
+REPLACE             (Substitui substrings.) 
+                    EX: REPLACE('Funções de string', 'String' , 'Texto')
+
+INSTR               (Acha a posição de uma Substring)  
+                    EX: INSTR('Funções de String', 'de')
+
+
 
 insert into select  (Use to put a SELECT result inside some Table) 
 select into         (Use to put a ROW of a Table inside some variable)
